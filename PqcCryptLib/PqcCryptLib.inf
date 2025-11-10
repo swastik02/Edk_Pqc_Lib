@@ -19,6 +19,11 @@
   Hash/InternalCryptLib.h
   Hash/keccak1600.c
   Hash/CryptSha3.c
+  Sign/sign.h
+  Sign/sphincs.c
+  Sign/pqclean_sphincs-sha2-128s-simple_clean/address.c 
+  Sign/pqclean_sphincs-sha2-128s-simple_clean/utils.c 
+
 
 
 [Packages]
