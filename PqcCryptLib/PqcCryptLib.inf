@@ -16,15 +16,8 @@
 #
 
 [Sources]
-  Hash/InternalCryptLib.h
-  Hash/keccak1600.c
-  Hash/CryptSha3.c
-  Sign/sign.h
-  Sign/sphincs.c
-  Sign/pqclean_sphincs-sha2-128s-simple_clean/address.c 
-  Sign/pqclean_sphincs-sha2-128s-simple_clean/utils.c 
-
-
+  Hash/fips202.c
+  Sign/dilithium/randombytes.c
 
 [Packages]
   MdePkg/MdePkg.dec
@@ -39,4 +32,4 @@
   PrintLib
   UefiBootServicesTableLib
   SynchronizationLib
-
+  RngLib
