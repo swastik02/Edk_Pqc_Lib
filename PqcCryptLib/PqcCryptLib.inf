@@ -18,6 +18,14 @@
 [Sources]
   Hash/fips202.c
   Sign/dilithium/randombytes.c
+  Sign/dilithium/reduce.c
+  Sign/dilithium/rounding.c
+  Sign/dilithium/ntt.c
+  Sign/dilithium/symmetric-shake.c
+  Sign/dilithium/poly.c
+  Sign/dilithium/polyvec.c
+  Sign/dilithium/packing.c
+  Sign/dilithium/sign.c
 
 [Packages]
   MdePkg/MdePkg.dec

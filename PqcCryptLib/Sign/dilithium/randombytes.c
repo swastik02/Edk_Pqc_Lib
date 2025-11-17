@@ -10,7 +10,7 @@ randombytes(
 ){
   BOOLEAN ret;
 
-  while(outlen > 0) {
+  while((INT32)outlen > 0) {
 
     ret = GetRandomNumber32((UINT32*)out);
 

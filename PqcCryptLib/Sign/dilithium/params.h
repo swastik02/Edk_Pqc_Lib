@@ -14,7 +14,7 @@
 
 #if DILITHIUM_MODE == 2
 #define K 4
-#define L 4
+#define L_D 4
 #define ETA 2
 #define TAU 39
 #define BETA 78
@@ -72,9 +72,9 @@
 #define CRYPTO_PUBLICKEYBYTES (SEEDBYTES + K*POLYT1_PACKEDBYTES)
 #define CRYPTO_SECRETKEYBYTES (2*SEEDBYTES \
                                + TRBYTES \
-                               + L*POLYETA_PACKEDBYTES \
+                               + L_D*POLYETA_PACKEDBYTES \
                                + K*POLYETA_PACKEDBYTES \
                                + K*POLYT0_PACKEDBYTES)
-#define CRYPTO_BYTES (CTILDEBYTES + L*POLYZ_PACKEDBYTES + POLYVECH_PACKEDBYTES)
+#define CRYPTO_BYTES (CTILDEBYTES + L_D*POLYZ_PACKEDBYTES + POLYVECH_PACKEDBYTES)
 
 #endif
